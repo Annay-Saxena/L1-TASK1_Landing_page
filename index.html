@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFitness - The best fitness gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">
+                    <h1><strong>MyFitness</strong></h1>
+                </div>
+                <ul class="navbar flex items-center">
+                    <li><button class="btn">Home</button></li>
+                    <li><button class="btn">About</button></li>
+                    <li><button class="btn">Services</button></li>
+                    <li><button class="btn">Contact Us</button></li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym is here</h1>
+                        <p class=" text-center txtcolor">Starting a fitness program may be one of the best things you
+                            can do for your health. After all, physical activity can reduce your risk of chronic
+                            disease, improve your balance and coordination, help you lose weight, and even boost your
+                            self-esteem. And you can reap these benefits regardless of your age, sex or physical
+                            ability.</p>
+                        <!-- Display the countdown timer in an element -->
+                        <p class="deal1 text-center">20% Discount for a limited peroid.</p>
+                        <p class="deal text-center">The deal <span id="demo"></span></p>
+                        <div class="buttons">
+                            <button class="btn">Join now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- About the gym  -->
+            <section class="section2">
+                <h2 class="text-center my-2">MyFitness Gym India – A Legacy of 20 years</h2>
+                <p class="my-2" style="color: brown;">MyFitness Gym India celebrates 20th Anniversary this year. The gym
+                    community is getting stronger each year while taking forward the legacy in fitness. We are a largest
+                    co-ed gym chain with 700+ centres internationally.MyFitness Gym India is present in 25 states and
+                    90+ cities.</p>
+
+                <p class="my-2"> <strong>Register now and get 3-days free trail.</strong></p>
+
+                <p class="my-2" style="color: brown;"> After their inception in February of 2003 at Modal Town, Delhi,
+                    MyFitness Gym has become the largest co-ed gym chain in the world with over 700+ clubs in 28
+                    countries. Today, MyFitness gym has expanded its fitness profile to offer all the latest equipment
+                    and services, including group exercise, personal gym training, cardiovascular equipment, spinning
+                    and yoga, while maintaining its core weightlifting tradition. The year 2022 marked the 20th
+                    anniversary of MyFitness Gym India. In these glorious years MyFitness Gym has expanded its legacy
+                    into 150+ gyms in India across 95+ cities and a few more ready to start in the near future.</p>
+
+                <!-- Plans Description -->
+
+                <h2 class="text-center my-2">Plans Available</h2>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Silver</h2>
+                        <ul class="txtcolor">
+                            <li class="highlighted">₹300/month</li>
+                            <li>Daily workouts</li>
+                            <li>Join our community</li>
+                            <li>No Progress tracking</li>
+                            <li>Can't Connect your wearables</li>
+                            <li>No off at signature programs</li>
+                            <li>No Trainer</li>
+                            <li>No Access to Premium video resources</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Gold</h2>
+                        <ul class="txtcolor">
+                            <li class="highlighted">₹500/month</li>
+                            <li>Daily workouts</li>
+                            <li>Join our community</li>
+                            <li>Progress tracking</li>
+                            <li>Connect your wearables</li>
+                            <li>40% off on all signature programs</li>
+                            <li>General Trainer</li>
+                            <li>No Access to Premium video resources</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Platinum</h2>
+                        <ul class="txtcolor">
+                            <li class="highlighted">₹1000/month</li>
+                            <li>Daily workouts</li>
+                            <li>Join our community</li>
+                            <li>Progress tracking</li>
+                            <li>Connect your wearables</li>
+                            <li>100% off on all signature programs</li>
+                            <li>Personal Trainer</li>
+                            <li>Premium video resources</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+
+            <!-- Compare Plans -->
+
+            <!-- <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Silver</th>
+                          <th>Gold</th>
+                          <th>Platinum</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Public</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Private</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Permissions</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Sharing</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Unlimited members</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Price</th>
+                          <td>&#8377;300/-</td>
+                          <td>&#8377;500/-</td>
+                          <td>&#8377;1000/-</td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </section> -->
+            <hr>
+        </main>
+        <!-- <section id="carousel">
+            <div class="container testimonial">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;">
+                        <div class="headingtest">
+                            <h1 class="cmsmasters_heading " style="text-align: center;"> TESTIMONIALS
+                            </h1>
+                            <h5>What our clients says</h5>
+                        </div>
+                        <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                        <div class="carousel-1 slide" id="fade-quote-carousel">
+                            <div class="carousel-inner testimonial-slider-homepage slick-initialized slick-slider slick-dotted"><button class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true" style="display: block;">Previous</button><div class="slick-list draggable do-transition"><div class="slick-track" style="opacity: 1; width: 2178px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="tabpanel" id="slick-slide20" aria-describedby="slick-slide-control20" style="width: 323px;"><div><div class="item active" style="width: 100%; display: inline-block;">
+                                    <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+                                    <blockquote>
+                                        <p>It's a very nice gym with world top class equipment of Life fitness and Hammer Strength, and people surrounding is also good, and staff of this branch is very kind, they help members very well and all the trainers are certified with good knowledge of teaching as well. Good place to achieve your goals.</p>
+                                        <p><small>Mayur Abnave</small></p>
+                                    </blockquote>
+                                </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide21" aria-describedby="slick-slide-control21" style="width: 323px;"><div><div class="item" style="width: 100%; display: inline-block;">
+                                    <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                                    <blockquote>
+                                        <p>So this place is more than just a gym. You can walk in and make friends that will guide you and help you out each time. They have great programs such as kickboxing, yoga, Zumba etc that you can opt for to change the routine once in a while. They have dedicated cardio and spinning sections with mood lighting and good instructors. The staff is humble and helpful whenever approached.</p>
+                                        <p><small>Utkrisht Kaushik</small></p>
+                                    </blockquote>
+                                </div></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide22" aria-describedby="slick-slide-control22" style="width: 323px;"><div><div class="item" style="width: 100%; display: inline-block;">
+                                    <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                                    <blockquote>
+                                        <p>Amazing staff.!!! Hygiene is always a priority here. There are lockers to keep our bags. The personal trainers are extremely helpful. I have been training under Pranay Bane and sir has been most motivating.</p>
+                                        <p><small>Natasha Mondegari</small></p>
+                                    </blockquote>
+        
+                                </div></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide23" aria-describedby="slick-slide-control23" style="width: 323px;"><div><div class="item" style="width: 100%; display: inline-block;">
+                                    <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                                    <blockquote>
+                                        <p>Hands down, best choice I’ve made training at Gold's Gym. VERY friendly team who make me actually want to go train. I look forward to walking through the doors and always feel amazing when I leave. Their trainers are exceptional, the overall vibe is great and I have had nothing but good experiences. I definitely recommend them to my friends and family.</p>
+                                        <p><small>Pradip Andhale</small></p>
+                                    </blockquote>
+        
+                                </div></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide24" aria-describedby="slick-slide-control24" style="width: 323px;"><div><div class="item" style="width: 100%; display: inline-block;">
+                                    <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                                    <blockquote>
+                                        <p>One of the best gyms to start your workout journey with. A very well managed Gym. Good staff. Good knowledge trainers. One of the special thing about the gym is positive energy, none of the gym have this kind of energy as compared to any other Gyms in this area. You will always feel energetic whenever you step in the Gym. Place doesn't matter at all it’s just the name its self-enough. I have joined in 2012 and was there for 4 year. NO COMPARISON WITH GOLD'S</p>
+                                        <p><small>Tejas Pardeshi</small></p>
+                                    </blockquote>
+        
+                                </div></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide25" aria-describedby="slick-slide-control25" style="width: 323px;"><div><div class="item" style="width: 100%; display: inline-block;">
+                                    <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                                    <blockquote>
+                                        <p>Amazing gym with awesome trainers, especially my trainer Mr SANDEEP!! Space is ample, equipment are quite good, staff is very friendly and the whole atmosphere is filled with positive vibes. It’s been just four days since I have joined this gym, and I can already feel the difference. One of the best gyms I have come across. And the best in Pune. Bravo!!</p>
+                                        <p><small>Ela Sharda</small></p>
+                                    </blockquote>
+                                </div></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;" aria-disabled="false">Next</button><ul class="slick-dots" style="display: flex;" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control20" aria-controls="slick-slide20" aria-label="1 of 6" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control21" aria-controls="slick-slide21" aria-label="2 of 6" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control22" aria-controls="slick-slide22" aria-label="3 of 6" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control23" aria-controls="slick-slide23" aria-label="4 of 6" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control24" aria-controls="slick-slide24" aria-label="5 of 6" tabindex="-1">5</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control25" aria-controls="slick-slide25" aria-label="6 of 6" tabindex="-1">6</button></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <footer class="highlighted">
+            Copyright &copy; MyFitness.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
